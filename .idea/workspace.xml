@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3574cb03-3af3-45e1-b71a-a0c5c0035e2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/src/main/java/org/study/paymentcommon/domain/PaymentTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/src/main/java/org/study/paymentcommon/mapper/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/src/main/java/org/study/paymentcommon/repository/PaymentTransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/src/main/java/org/study/paymentcommon/service/MockPgClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/src/main/java/org/study/paymentcommon/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-common/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/src/main/java/org/study/paymentrest/PaymentRestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/src/main/java/org/study/paymentrest/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/src/main/java/org/study/paymentrest/dto/PaymentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/src/main/java/org/study/paymentrest/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-rest/src/test/java/org/study/paymentrest/PaymentRestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/ClientSocketWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/PaymentSocketApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/PaymentSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/handler/PaymentMessageHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/message/ApprovalRequestMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/message/ApprovalResponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/message/MessageCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/java/org/study/paymentsocket/message/MessageSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-socket/src/test/java/org/study/paymentsocket/PaymentSocketApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/payment-common">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/payment-rest">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/payment-socket">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payment-root" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payment-root" type="f1a62948:ProjectNode" />
+                <item name="payment-common" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payment-root" type="f1a62948:ProjectNode" />
+                <item name="payment-rest" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payment-root" type="f1a62948:ProjectNode" />
+                <item name="payment-rest" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="payment-root" type="f1a62948:ProjectNode" />
+                <item name="payment-socket" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MapperTemplate" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Dynp2mUBx5UxR6EZI6DVsfZaT7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PaymentRestApplication">
+    <configuration name="PaymentRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment-root.payment-rest.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.paymentrest.PaymentRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentSocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="payment-root.payment-socket.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.study.paymentsocket.PaymentSocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.PaymentRestApplication" />
+      <item itemvalue="Spring Boot.PaymentSocketApplication" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3574cb03-3af3-45e1-b71a-a0c5c0035e2b" name="Changes" comment="" />
+      <created>1779263357042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779263357042</updated>
+      <workItem from="1779263358070" duration="1019000" />
+      <workItem from="1779264387877" duration="57265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
