@@ -1,4 +1,0 @@
-rootProject.name = 'payment-root'
-include 'payment-common'
-include 'payment-rest'
-include 'payment-socket'
