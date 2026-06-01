@@ -145,4 +145,10 @@ public class PaymentService {
             return new ApprovalResult(false, null, responseCode, reason);
         }
     }
+
+    @Transactional(readOnly = true)
+    public PaymentTransaction findByOrderId(String orderId) {
+        return repository.findByOrderId(orderId)
+                .orElseThrow(() -> new IllegalArgumentException("존재하지 않는 주문: " + orderId));
+    }
 }

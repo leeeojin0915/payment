@@ -47,21 +47,25 @@ public class PaymentController {
                 request.getInstallment()
         );
 
-        // 응답 DTO 조립
+        // DB에서 저장된 트랜잭션 조회하여 전체 정보 반환
+        PaymentTransaction tx = paymentService.findByOrderId(request.getOrderId());
+
         PaymentDto.ApprovalResponse response = PaymentDto.ApprovalResponse.builder()
                 .success(result.isApproved())
-                .orderId(request.getOrderId())
-                .merchantId(request.getMerchantId())
-                .approvalNumber(result.getApprovalNumber())
-                .failureReason(result.getFailureReason())
-                .amount(request.getAmount())
-                .installment(request.getInstallment())
-                .status(result.isApproved() ?
-                        PaymentTransaction.PaymentStatus.APPROVED :
-                        PaymentTransaction.PaymentStatus.DECLINED)
+                .transactionId(tx.getTransactionId())
+                .orderId(tx.getOrderId())
+                .merchantId(tx.getMerchantId())
+                .approvalNumber(tx.getApprovalNumber())
+                .maskedCardNumber(tx.getMaskedCardNumber())
+                .cardCompany(tx.getCardCompany())
+                .amount(tx.getAmount())
+                .installment(tx.getInstallment())
+                .status(tx.getStatus())
+                .failureReason(tx.getFailureReason())
+                .requestedAt(tx.getRequestedAt())
+                .approvedAt(tx.getApprovedAt())
                 .build();
 
-        // 승인 성공: 200, 거절: 402
         if (result.isApproved()) {
             return ResponseEntity.ok(response);
         } else {
